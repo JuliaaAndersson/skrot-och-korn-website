@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta Oss</title>
+</head>
+
+<body style="background-color: blanchedalmond; text-align: center;">
+    <a href="index.html">Startsida</a>
+    <a href="productlist.html">Prislista</a>
+    <a href="media.html">Media</a>
+    <br>
+    <h1>Kontakta Oss</h1>
+    <br>
+    <br>
+    <img src="images/Kontorsarbetande Lis.png" alt="picture of Lisa" width="200"><br>
+    <a href="mailto: lisa@skrotkorn.se">Kontakta Lisa</a>
+    <br>
+    <img src="images/Magnus ägare Skrot o.png" alt="picture of Mange" width="200"><br>
+    <a href="mailto: mange@skrotkorn.se">Kontakta Mange</a>
+    <br>
+    <img src="images/Max gårdsarbetare me.png" alt="picture of max" width="200"><br>
+    <a href="mailto: max@skrotkorn.se">Kontakta Max</a>
+    <br>
+
+    <div style="color:black; background-color: bisque;">
+        <h4>Fyll i nedan:</h4>
+        <form action="http://primat.se/services/sendform.aspx?xid=registrering&xmail=juliaa.aandersson94hotmail.com"
+            method="post"><br>
+            <label for="name">Ditt Namn:</label>
+            <input id="name" type="text" name="name" placeholder="" required><br>
+            <label for="adress">Adress:</label>
+            <input id="adress" type="text" name="adress" placeholder="" required><br>
+            <label for="email">Mail:</label>
+            <input id="email" type="text" name="email" placeholder="" required><br>
+            <label for="phone">Telefon:</label>
+            <input id="phone" type="text" name="phone" placeholder="" required><br>
+
+
+            <p>Välj:</p>
+            <input type="radio" name="typeOf" id="private" value="private">
+            <label for="privte">Privat</label>
+            <input type="radio" name="typeOf" id="company" value="company">
+            <label for="company">Företag</label><br>
+            <br>
+            <input type="radio" name="size" id="small" value="small">
+            <label for="small">1-100 anställda</label>
+            <input type="radio" name="size" id="medium" value="medium">
+            <label for="medium">101-1000 anställda</label>
+            <input type="radio" name="size" id="large" value="large">
+            <label for="large">Mer än 1000 anställda</label><br>
+
+            <br>
+
+            <label for="question">Ställ din fråga</label><br>
+            <textarea id="question" name="question" rows="5" cols="80"></textarea><br>
+
+            <input type="checkbox" name="newslatter" value="ja">
+            <input type="hidden" name="newslatter" value="nej">
+            <label for="newsletter">Jag vill ha nyhetsbrev!</label><br>
+
+            <input type="checkbox" name="contact" value="ja">
+            <input type="hidden" name="contact" value="nej">
+            <label for="contact">Jag vill bli kontaktad på telefon!</label><br>
+
+            <input type="submit" value="Skicka">
+        </form>
+    </div>
+
+    <div style="text-align:left;">
+        <iframe src="footer.html" width="350" height="315" style="border: none;"></iframe>
+    </div>
+</body>
+
+</html>
